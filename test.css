@@ -1,0 +1,45 @@
+.box{
+    width: 300px;
+    padding: 30px;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    background: rgba(0,0,0,0.4);
+    border-radius:25px ;
+
+}
+.box input[type="text"],
+.box input[type="password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 10px;
+    text-align: center;
+    padding: 14px 10px;
+    border-radius: 20px;
+    color: white;
+}
+body{
+    background: url(man.jpg);
+    background-size: cover;
+
+}
+.box h1{
+    color: white;
+    text-align: center;
+}
+.box input[type="submit"]{
+    border: 3px solid yellow;
+    background: none;
+    display: block;
+    margin: 10px;
+    text-align: center;
+    padding: 10px 35px ;
+    color: aliceblue;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.25px;
+}
+.box input[type="submit"]:hover{
+    background: blue;
+}

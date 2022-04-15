@@ -1,0 +1,73 @@
+body{
+    background : url(man2.jpg);
+    background-size: cover;
+}
+img{
+    border-radius: 30px ;
+    height: 300px;
+    display: inline-block;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.cont {
+    display: flex;
+}
+h1{
+    font-size: 70px;
+    margin-left: 15%;
+    margin-top: 10%;
+    font-family: algerian;
+    color: yellow;
+}
+.cont1{
+    display: flex;
+}
+h2{
+    font-size: 100px;
+    font-family: algerian;
+    text-align: center;
+    animation: blink 3s infinite;
+    -webkit-animation: blink 3s infinite;
+}
+@-webkit-keyframes blink {
+    20%,
+    24%,
+    55% {
+      color: #111;
+      text-shadow: none;
+    }
+  
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+  
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+      color: #fff6a9;
+    }
+  }
+  
+  @keyframes blink {
+    20%,
+    24%,
+    55% {
+      color: #111;
+      text-shadow: none;
+    }
+  
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+      color: #fff6a9;
+    }
+  }
